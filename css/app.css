@@ -407,7 +407,7 @@ html, body {
 
 body {
   font-family: Arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
-  font-size: 120%;
+  font-size: 110%;
   line-height: 130%;
 }
 
@@ -448,6 +448,10 @@ select,
 input {
   margin: 0;
   padding: 0;
+}
+
+textarea {
+  padding: 6px;
 }
 
 ul, ol {
@@ -494,6 +498,7 @@ footer {
   padding: 1rem;
   height: 100%;
   border: 1px solid #ddd;
+  background-color: #fff;
 }
 
 .columns:not(:last-child) {
