@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.columns {
+
+  &:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+.column {
+
+  &.is-quarter {
+    width: 18%;
+  }
+}
